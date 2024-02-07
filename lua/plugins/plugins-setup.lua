@@ -1,4 +1,3 @@
-
 local ensure_packer = function()
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
@@ -25,8 +24,8 @@ vim.cmd([[
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- use 'folke/tokyonight.nvim' -- theme
-    -- use 'Mofiqul/dracula.nvim'
-    use "joshdick/onedark.vim"
+  use 'Mofiqul/dracula.nvim'
+  -- use "joshdick/onedark.vim"
   use {
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = true }

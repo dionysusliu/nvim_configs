@@ -37,5 +37,5 @@ opt.ignorecase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 -- vim.cmd[[colorscheme dracula]]-- theme
-vim.cmd[[colorscheme onedark]]-- theme
+vim.cmd[[colorscheme dracula]]-- theme
 
